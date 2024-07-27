@@ -1,8 +1,7 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
-import ProductsPage from './components/ProductsPage';
+import LoginPage from './pages/LoginPage';
+import ProductsPage from './pages/ProductsPage';
 
 function App() {
   return (
