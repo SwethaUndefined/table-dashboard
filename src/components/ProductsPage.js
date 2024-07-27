@@ -103,7 +103,7 @@ function ProductsPage() {
     { id: 'description', header: 'Description', accessorKey: 'description' },
     { id: 'category', header: 'Category', accessorKey: 'category' },
     { id: 'price', header: 'Price', accessorKey: 'price' },
-    { id: 'discountPercentage', header: 'Discount %', accessorKey: 'discountPercentage' },
+    { id: 'discountPercentage', header: 'Discount', accessorKey: 'discountPercentage' },
     { id: 'rating', header: 'Rating', accessorKey: 'rating' },
     { id: 'stock', header: 'Stock', accessorKey: 'stock' },
     { id: 'tags', header: 'Tags', accessorKey: 'tags' },
@@ -117,7 +117,7 @@ function ProductsPage() {
              setSelectedProduct(row.original);
              setModalOpen(true);
            }}
-           style={{display:"flex",justifyContent:"center",cursor:"pointers"}}
+           style={{display:"flex",justifyContent:"center",cursor:'pointer'}}
          />
       )
     }

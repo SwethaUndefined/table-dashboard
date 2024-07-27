@@ -30,12 +30,6 @@
       "react-app/jest"
     ]
   },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "@testing-library/jest-dom/extend-expect"
-    ],
-    "testEnvironment": "jsdom"
-  },  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -52,6 +46,7 @@
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
+    "axios-mock-adapter": "^1.22.0",
     "jest": "^27.5.1"
   }
 }
